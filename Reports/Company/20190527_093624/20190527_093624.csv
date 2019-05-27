@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Company,,,2019-05-27 09:36:50,2019-05-27 09:36:59,8.415s,PASSED
+,,,,,,
+Test Cases/Company/GetCompany,,,2019-05-27 09:36:51,2019-05-27 09:36:59,7.507s,PASSED
+"getCompany = sendRequest(findTestObject(""Company/GetCompany""))",,,2019-05-27 09:36:52,2019-05-27 09:36:58,5.855s,PASSED
+"verifyResponseStatusCode(getCompany, 200)",,,2019-05-27 09:36:58,2019-05-27 09:36:58,0.059s,PASSED
+"verifyElementPropertyValue(getCompany, ""data[0].name"", ""Wisky Company"")",,,2019-05-27 09:36:58,2019-05-27 09:36:58,0.187s,PASSED
+"verifyElementPropertyValue(getCompany, ""data[0].id"", 5)",,,2019-05-27 09:36:58,2019-05-27 09:36:58,0.097s,PASSED
+"verifyElementPropertyValue(getCompany, ""data[0].phone"", ""0123456789"")",,,2019-05-27 09:36:58,2019-05-27 09:36:58,0.075s,PASSED
+"verifyElementPropertyValue(getCompany, ""data[0].address"", ""QTSC Incubator"")",,,2019-05-27 09:36:58,2019-05-27 09:36:58,0.071s,PASSED
+"verifyElementPropertyValue(getCompany, ""data[0].createTime"", ""2019-04-04T00:00:00"")",,,2019-05-27 09:36:58,2019-05-27 09:36:59,0.088s,PASSED
+"verifyElementPropertyValue(getCompany, ""data[0].active"", ""true"")",,,2019-05-27 09:36:59,2019-05-27 09:36:59,0.045s,PASSED
+"verifyElementPropertyValue(getCompany, ""data[0].activeCode"", ""Actived"")",,,2019-05-27 09:36:59,2019-05-27 09:36:59,0.069s,PASSED

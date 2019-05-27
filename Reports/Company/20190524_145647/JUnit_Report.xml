@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Company" time="6" tests="1" failures="0" errors="0">
+   <testsuite name="Company" tests="1" failures="0" errors="0" time="6" timestamp="2019-05-24 14:56:56" hostname="Acer - KyNQHSE62812" id="Test Suites/Company">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Company\\20190524_145647"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Company\\20190524_145647\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - KyNQHSE62812"/>
+         <property name="hostAddress" value="192.168.223.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+      </properties>
+      <testcase name="Test Cases/Company/PostCompany" classname="Test Cases/Company/PostCompany" status="PASSED">
+         <system-out><![CDATA[2019-05-24 14:56:56 - [TEST_CASE][PASSED] - Test Cases/Company/PostCompany: Test Cases/Company/PostCompany
+
+2019-05-24 14:56:57 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Company/PostCompany")): Send request successfully
+
+2019-05-24 14:57:01 - [MESSAGE][INFO] - HAR: C:\Users\Acer\Katalon Studio\Unilog\Reports\Company\20190524_145647\requests\main\0.har
+
+2019-05-24 14:57:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-24 14:57:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-05-24 14:57:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-24 14:56:56 - [TEST_SUITE][PASSED] - Company: Test Cases/Company/PostCompany]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

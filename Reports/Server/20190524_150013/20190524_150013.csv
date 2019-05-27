@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Server,,,2019-05-24 15:00:22,2019-05-24 15:00:30,7.653s,PASSED
+,,,,,,
+Test Cases/Server/GetServer,,,2019-05-24 15:00:23,2019-05-24 15:00:30,6.982s,PASSED
+"response = sendRequest(findTestObject(""Server/GetServer""))",,,2019-05-24 15:00:24,2019-05-24 15:00:28,4.369s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-05-24 15:00:28,2019-05-24 15:00:28,0.035s,PASSED
+"verifyElementPropertyValue(response, ""data[0].id"", 7)",,,2019-05-24 15:00:28,2019-05-24 15:00:28,0.149s,PASSED
+"verifyElementPropertyValue(response, ""data[0].ipaddress"", ""213.112.2.2"")",,,2019-05-24 15:00:28,2019-05-24 15:00:28,0.048s,PASSED
+"verifyElementPropertyValue(response, ""data[0].serverCode"", ""5812KIQF"")",,,2019-05-24 15:00:28,2019-05-24 15:00:28,0.073s,PASSED
+"verifyElementPropertyValue(response, ""data[0].companyId"", 3)",,,2019-05-24 15:00:28,2019-05-24 15:00:28,0.103s,PASSED
+"verifyElementPropertyValue(response, ""data[0].createDate"", ""2019-05-06T16:06:23.407"")",,,2019-05-24 15:00:28,2019-05-24 15:00:29,0.077s,PASSED
+"verifyElementPropertyValue(response, ""data[0].description"", ""Test"")",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.093s,PASSED
+"verifyElementPropertyValue(response, ""data[0].active"", ""true"")",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.049s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[0].id"", 20)",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.056s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[0].createTime"", ""2019-05-06T16:07:36.6"")",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.059s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[0].lastUpdate"", ""2019-05-23T14:20:50.323"")",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.052s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[0].name"", ""Test System Instance"")",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.055s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[0].status"", 1)",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.047s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[0].description"", ""Ok"")",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.064s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[0].status"", 1)",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.054s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[0].serverId"", 7)",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.038s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[0].active"", ""true"")",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.059s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[0].status"", 1)",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.067s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[0].systemsId"", 16)",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.052s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[1].id"", 21)",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.045s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[1].createTime"", ""2019-05-06T16:08:30.243"")",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.045s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[1].lastUpdate"", ""2019-05-23T14:20:50.323"")",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.046s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[1].name"", ""Test System Instance 2"")",,,2019-05-24 15:00:29,2019-05-24 15:00:29,0.038s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[1].status"", 1)",,,2019-05-24 15:00:29,2019-05-24 15:00:30,0.042s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[1].description"", ""Ok"")",,,2019-05-24 15:00:30,2019-05-24 15:00:30,0.054s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[1].serverId"", 7)",,,2019-05-24 15:00:30,2019-05-24 15:00:30,0.045s,PASSED
+"verifyElementPropertyValue(response, ""data[0].systemInstance[1].systemsId"", 16)",,,2019-05-24 15:00:30,2019-05-24 15:00:30,0.034s,PASSED

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Company,,,2019-05-24 14:56:56,2019-05-24 14:57:02,6.401s,PASSED
+,,,,,,
+Test Cases/Company/PostCompany,,,2019-05-24 14:56:56,2019-05-24 14:57:02,5.687s,PASSED
+"response = sendRequest(findTestObject(""Company/PostCompany""))",,,2019-05-24 14:56:57,2019-05-24 14:57:02,4.760s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-05-24 14:57:02,2019-05-24 14:57:02,0.045s,PASSED

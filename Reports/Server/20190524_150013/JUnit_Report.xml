@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Server" time="7" tests="1" failures="0" errors="0">
+   <testsuite name="Server" tests="1" failures="0" errors="0" time="7" timestamp="2019-05-24 15:00:22" hostname="Acer - KyNQHSE62812" id="Test Suites/Server">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Server\\20190524_150013"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Server\\20190524_150013\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - KyNQHSE62812"/>
+         <property name="hostAddress" value="192.168.223.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+      </properties>
+      <testcase name="Test Cases/Server/GetServer" classname="Test Cases/Server/GetServer" status="PASSED">
+         <system-out><![CDATA[2019-05-24 15:00:23 - [TEST_CASE][PASSED] - Test Cases/Server/GetServer: Test Cases/Server/GetServer
+
+2019-05-24 15:00:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Server/GetServer")): Send request successfully
+
+2019-05-24 15:00:28 - [MESSAGE][INFO] - HAR: C:\Users\Acer\Katalon Studio\Unilog\Reports\Server\20190524_150013\requests\main\0.har
+
+2019-05-24 15:00:28 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-24 15:00:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-05-24 15:00:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-05-24 15:00:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].id", 7): Verify element property value successfully
+
+2019-05-24 15:00:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].ipaddress", "213.112.2.2"): Verify element property value successfully
+
+2019-05-24 15:00:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].serverCode", "5812KIQF"): Verify element property value successfully
+
+2019-05-24 15:00:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].companyId", 3): Verify element property value successfully
+
+2019-05-24 15:00:28 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:28 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].createDate", "2019-05-06T16:06:23.407"): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].description", "Test"): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].active", "true"): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[0].id", 20): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[0].createTime", "2019-05-06T16:07:36.6"): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[0].lastUpdate", "2019-05-23T14:20:50.323"): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[0].name", "Test System Instance"): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[0].status", 1): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[0].description", "Ok"): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[0].status", 1): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[0].serverId", 7): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[0].active", "true"): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[0].status", 1): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[0].systemsId", 16): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[1].id", 21): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[1].createTime", "2019-05-06T16:08:30.243"): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[1].lastUpdate", "2019-05-23T14:20:50.323"): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[1].name", "Test System Instance 2"): Verify element property value successfully
+
+2019-05-24 15:00:29 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:29 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[1].status", 1): Verify element property value successfully
+
+2019-05-24 15:00:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[1].description", "Ok"): Verify element property value successfully
+
+2019-05-24 15:00:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[1].serverId", 7): Verify element property value successfully
+
+2019-05-24 15:00:30 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 15:00:30 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].systemInstance[1].systemsId", 16): Verify element property value successfully
+
+2019-05-24 15:00:30 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-24 15:00:22 - [TEST_SUITE][PASSED] - Server: Test Cases/Server/GetServer]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

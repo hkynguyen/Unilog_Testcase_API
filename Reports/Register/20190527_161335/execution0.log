@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-27T16:13:41</date>
+  <millis>1558948421430</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Register</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Register</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Register</property>
+</record>
+<record>
+  <date>2019-05-27T16:13:41</date>
+  <millis>1558948421462</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Acer - KyNQHSE62812</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Acer - KyNQHSE62812</property>
+</record>
+<record>
+  <date>2019-05-27T16:13:41</date>
+  <millis>1558948421466</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2019-05-27T16:13:41</date>
+  <millis>1558948421476</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.223.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.223.1</property>
+</record>
+<record>
+  <date>2019-05-27T16:13:41</date>
+  <millis>1558948421480</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.5.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.5.4</property>
+</record>
+<record>
+  <date>2019-05-27T16:13:42</date>
+  <millis>1558948422145</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Register/PostRegisterAdministrator</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Register/PostRegisterAdministrator</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Register/PostRegisterAdministrator</property>
+  <property name="source">C:\\Users\\Acer\\Katalon Studio\\Unilog\\Test Cases\\Register\\PostRegisterAdministrator.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-27T16:13:43</date>
+  <millis>1558948423134</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : a = sendRequest(findTestObject(\&amp;quot;Register/PostRegisterAdministrator\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-27T16:13:58</date>
+  <millis>1558948438440</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Register\\20190527_161335\\requests\\main\\0.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">88665725-1c0b-4763-8f2d-14505fd7f831</property>
+</record>
+<record>
+  <date>2019-05-27T16:13:58</date>
+  <millis>1558948438787</millis>
+  <sequence>12</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:13:58</date>
+  <millis>1558948438788</millis>
+  <sequence>13</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : a = sendRequest(findTestObject(\&amp;quot;Register/PostRegisterAdministrator\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:13:58</date>
+  <millis>1558948438789</millis>
+  <sequence>14</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(a, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-27T16:13:58</date>
+  <millis>1558948438824</millis>
+  <sequence>16</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:13:58</date>
+  <millis>1558948438826</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(a, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:13:58</date>
+  <millis>1558948438827</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Register/PostRegisterAdministrator</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:13:58</date>
+  <millis>1558948438830</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Register/PostRegisterAdministrator</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:13:58</date>
+  <millis>1558948438857</millis>
+  <sequence>20</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Register/PostRegisterManager</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Register/PostRegisterManager</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Register/PostRegisterManager</property>
+  <property name="source">C:\\Users\\Acer\\Katalon Studio\\Unilog\\Test Cases\\Register\\PostRegisterManager.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-27T16:13:59</date>
+  <millis>1558948439352</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : a = sendRequest(findTestObject(\&amp;quot;Register/PostRegisterManager\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-27T16:14:10</date>
+  <millis>1558948450914</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Register\\20190527_161335\\requests\\main\\1.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">24c0d1f8-822b-4428-b63d-0bc9f4f89867</property>
+</record>
+<record>
+  <date>2019-05-27T16:14:10</date>
+  <millis>1558948450954</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:10</date>
+  <millis>1558948450956</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : a = sendRequest(findTestObject(\&amp;quot;Register/PostRegisterManager\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:10</date>
+  <millis>1558948450956</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(a, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-27T16:14:10</date>
+  <millis>1558948450962</millis>
+  <sequence>31</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:10</date>
+  <millis>1558948450966</millis>
+  <sequence>32</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(a, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:10</date>
+  <millis>1558948450967</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Register/PostRegisterManager</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:10</date>
+  <millis>1558948450970</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Register/PostRegisterManager</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:10</date>
+  <millis>1558948450986</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Register/PostRegisterEmployee</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Register/PostRegisterEmployee</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Register/PostRegisterEmployee</property>
+  <property name="source">C:\\Users\\Acer\\Katalon Studio\\Unilog\\Test Cases\\Register\\PostRegisterEmployee.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-05-27T16:14:11</date>
+  <millis>1558948451370</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : a = sendRequest(findTestObject(\&amp;quot;Register/PostRegisterEmployee\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2019-05-27T16:14:24</date>
+  <millis>1558948464781</millis>
+  <sequence>41</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HAR: C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Register\\20190527_161335\\requests\\main\\2.har</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="harId">a00620f9-22fe-41be-a2fe-15af76ad447a</property>
+</record>
+<record>
+  <date>2019-05-27T16:14:24</date>
+  <millis>1558948464829</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Send request successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:24</date>
+  <millis>1558948464830</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : a = sendRequest(findTestObject(\&amp;quot;Register/PostRegisterEmployee\&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:24</date>
+  <millis>1558948464831</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyResponseStatusCode(a, 200)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2019-05-27T16:14:24</date>
+  <millis>1558948464837</millis>
+  <sequence>46</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify response status code successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:24</date>
+  <millis>1558948464839</millis>
+  <sequence>47</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyResponseStatusCode(a, 200)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:24</date>
+  <millis>1558948464839</millis>
+  <sequence>48</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Register/PostRegisterEmployee</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:24</date>
+  <millis>1558948464840</millis>
+  <sequence>49</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Register/PostRegisterEmployee</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2019-05-27T16:14:25</date>
+  <millis>1558948465090</millis>
+  <sequence>50</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Register</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

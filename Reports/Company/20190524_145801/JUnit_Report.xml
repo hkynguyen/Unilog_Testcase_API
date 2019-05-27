@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Company" time="6" tests="1" failures="0" errors="0">
+   <testsuite name="Company" tests="1" failures="0" errors="0" time="6" timestamp="2019-05-24 14:58:10" hostname="Acer - KyNQHSE62812" id="Test Suites/Company">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Company\\20190524_145801"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Company\\20190524_145801\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - KyNQHSE62812"/>
+         <property name="hostAddress" value="192.168.223.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+      </properties>
+      <testcase name="Test Cases/Company/PatchCompany" classname="Test Cases/Company/PatchCompany" status="PASSED">
+         <system-out><![CDATA[2019-05-24 14:58:11 - [TEST_CASE][PASSED] - Test Cases/Company/PatchCompany: Test Cases/Company/PatchCompany
+
+2019-05-24 14:58:12 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Company/PatchCompany")): Send request successfully
+
+2019-05-24 14:58:16 - [MESSAGE][INFO] - HAR: C:\Users\Acer\Katalon Studio\Unilog\Reports\Company\20190524_145801\requests\main\0.har
+
+2019-05-24 14:58:16 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-24 14:58:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-05-24 14:58:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-24 14:58:10 - [TEST_SUITE][PASSED] - Company: Test Cases/Company/PatchCompany]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

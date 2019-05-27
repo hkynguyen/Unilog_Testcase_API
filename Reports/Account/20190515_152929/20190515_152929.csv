@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Account,,,2019-05-15 15:29:40,2019-05-15 15:30:08,28.167s,PASSED
+,,,,,,
+Test Cases/Account/GetAccount,,,2019-05-15 15:29:41,2019-05-15 15:30:07,26.799s,PASSED
+"response = sendRequest(findTestObject(""Account/GetAccount""), STOP_ON_FAILURE)",,,2019-05-15 15:29:42,2019-05-15 15:30:07,25.424s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-05-15 15:30:07,2019-05-15 15:30:07,0.037s,PASSED
+"verifyElementPropertyValue(response, ""[0].idAspNetUser	"", 3)",,,2019-05-15 15:30:07,2019-05-15 15:30:07,0.184s,PASSED

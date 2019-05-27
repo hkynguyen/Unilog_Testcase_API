@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Company" time="8" tests="2" failures="0" errors="0">
+   <testsuite name="Company" tests="2" failures="0" errors="0" time="8" timestamp="2019-05-24 14:49:39" hostname="Acer - KyNQHSE62812" id="Test Suites/Company">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Company\\20190524_144929"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Company\\20190524_144929\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - KyNQHSE62812"/>
+         <property name="hostAddress" value="192.168.223.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+      </properties>
+      <testcase name="Test Cases/Company/GetCompany" classname="Test Cases/Company/GetCompany" status="PASSED">
+         <system-out><![CDATA[2019-05-24 14:49:40 - [TEST_CASE][PASSED] - Test Cases/Company/GetCompany: Test Cases/Company/GetCompany
+
+2019-05-24 14:49:41 - [TEST_STEP][PASSED] - getCompany = sendRequest(findTestObject("Company/GetCompany")): Send request successfully
+
+2019-05-24 14:49:45 - [MESSAGE][INFO] - HAR: C:\Users\Acer\Katalon Studio\Unilog\Reports\Company\20190524_144929\requests\main\0.har
+
+2019-05-24 14:49:46 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-24 14:49:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(getCompany, 200): Verify response status code successfully
+
+2019-05-24 14:49:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-05-24 14:49:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getCompany, "data[0].name", "Wisky Company"): Verify element property value successfully
+
+2019-05-24 14:49:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 14:49:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getCompany, "data[0].id", 5): Verify element property value successfully
+
+2019-05-24 14:49:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 14:49:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getCompany, "data[0].phone", "0123456789"): Verify element property value successfully
+
+2019-05-24 14:49:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 14:49:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getCompany, "data[0].address", "QTSC Incubator"): Verify element property value successfully
+
+2019-05-24 14:49:46 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 14:49:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getCompany, "data[0].createTime", "2019-04-04T00:00:00"): Verify element property value successfully
+
+2019-05-24 14:49:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 14:49:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getCompany, "data[0].active", "true"): Verify element property value successfully
+
+2019-05-24 14:49:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-05-24 14:49:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(getCompany, "data[0].activeCode", "Actived"): Verify element property value successfully
+
+2019-05-24 14:49:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Company/PostCompany" classname="Test Cases/Company/PostCompany" status="PASSED">
+         <system-out><![CDATA[2019-05-24 14:49:47 - [TEST_CASE][PASSED] - Test Cases/Company/PostCompany: Test Cases/Company/PostCompany
+
+2019-05-24 14:49:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Company/PostCompany")): Send request successfully
+
+2019-05-24 14:49:47 - [MESSAGE][INFO] - HAR: C:\Users\Acer\Katalon Studio\Unilog\Reports\Company\20190524_144929\requests\main\1.har
+
+2019-05-24 14:49:47 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-24 14:49:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-05-24 14:49:47 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-24 14:49:39 - [TEST_SUITE][PASSED] - Company: Test Cases/Company/PostCompany]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

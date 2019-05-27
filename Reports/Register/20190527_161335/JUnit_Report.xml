@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register" time="43" tests="3" failures="0" errors="0">
+   <testsuite name="Register" tests="3" failures="0" errors="0" time="43" timestamp="2019-05-27 16:13:41" hostname="Acer - KyNQHSE62812" id="Test Suites/Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Register\\20190527_161335"/>
+         <property name="logFiles" value="C:\\Users\\Acer\\Katalon Studio\\Unilog\\Reports\\Register\\20190527_161335\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer - KyNQHSE62812"/>
+         <property name="hostAddress" value="192.168.223.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+      </properties>
+      <testcase name="Test Cases/Register/PostRegisterAdministrator" classname="Test Cases/Register/PostRegisterAdministrator" status="PASSED">
+         <system-out><![CDATA[2019-05-27 16:13:42 - [TEST_CASE][PASSED] - Test Cases/Register/PostRegisterAdministrator: Test Cases/Register/PostRegisterAdministrator
+
+2019-05-27 16:13:43 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Register/PostRegisterAdministrator")): Send request successfully
+
+2019-05-27 16:13:58 - [MESSAGE][INFO] - HAR: C:\Users\Acer\Katalon Studio\Unilog\Reports\Register\20190527_161335\requests\main\0.har
+
+2019-05-27 16:13:58 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-27 16:13:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-05-27 16:13:58 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/PostRegisterManager" classname="Test Cases/Register/PostRegisterManager" status="PASSED">
+         <system-out><![CDATA[2019-05-27 16:13:58 - [TEST_CASE][PASSED] - Test Cases/Register/PostRegisterManager: Test Cases/Register/PostRegisterManager
+
+2019-05-27 16:13:59 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Register/PostRegisterManager")): Send request successfully
+
+2019-05-27 16:14:10 - [MESSAGE][INFO] - HAR: C:\Users\Acer\Katalon Studio\Unilog\Reports\Register\20190527_161335\requests\main\1.har
+
+2019-05-27 16:14:10 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-27 16:14:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-05-27 16:14:10 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/PostRegisterEmployee" classname="Test Cases/Register/PostRegisterEmployee" status="PASSED">
+         <system-out><![CDATA[2019-05-27 16:14:10 - [TEST_CASE][PASSED] - Test Cases/Register/PostRegisterEmployee: Test Cases/Register/PostRegisterEmployee
+
+2019-05-27 16:14:11 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("Register/PostRegisterEmployee")): Send request successfully
+
+2019-05-27 16:14:24 - [MESSAGE][INFO] - HAR: C:\Users\Acer\Katalon Studio\Unilog\Reports\Register\20190527_161335\requests\main\2.har
+
+2019-05-27 16:14:24 - [MESSAGE][PASSED] - Send request successfully
+
+2019-05-27 16:14:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+2019-05-27 16:14:24 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-27 16:13:41 - [TEST_SUITE][PASSED] - Register: Test Cases/Register/PostRegisterEmployee]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
